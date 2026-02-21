@@ -15,7 +15,7 @@
         }
       },
       "nqueens": {
-        "path": "lib",
+        "path": "./",
         "core": {
           "dependencies": [
             {
@@ -41,7 +41,7 @@
     },
     "package_set": {
       "address": {
-        "registry": "73.1.0"
+        "registry": "73.3.0"
       },
       "compiler": ">=0.15.15 <0.16.0",
       "content": {
@@ -471,6 +471,7 @@
         "selective-functors": "1.0.1",
         "semirings": "7.0.0",
         "shuffle": "2.0.0",
+        "sigil": "0.3.0",
         "signal": "13.0.0",
         "simple-emitter": "3.0.1",
         "simple-i18n": "2.0.1",
