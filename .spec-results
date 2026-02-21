@@ -1,0 +1,184 @@
+[
+  [
+    "helper function tests boardQueens it gets the List Position of queens from a Board gets the correct board size",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests boardSize it gets the boardSize from a Board gets the correct board size",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests canAttack checks if queen can attack a position col check",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests canAttack checks if queen can attack a position diagonal check",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests canAttack checks if queen can attack a position far check",
+    {
+      "timestamp": "1771262204983.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests canAttack checks if queen can attack a position out of range check",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests canAttack checks if queen can attack a position row check",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests isQueen checks if queen is at a location",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests nQueensNaive generates nQueens formations works for n = 7",
+    {
+      "timestamp": "1771687682424.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a given board is valid testing check",
+    {
+      "timestamp": "1771266410630.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen can be placed in a position checks diagonally",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen can be placed in a position checks horizontally",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen can be placed in a position checks vertically",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen can be placed in a position it can't attack if out of view",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen position is valid or not checks diagonally",
+    {
+      "timestamp": "1771501173170.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen position is valid or not checks horizontally",
+    {
+      "timestamp": "1771501173170.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen position is valid or not checks it can't attack",
+    {
+      "timestamp": "1771501157553.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen position is valid or not checks vertically",
+    {
+      "timestamp": "1771501173170.0",
+      "success": true
+    }
+  ],
+  [
+    "helper function tests valid checks if a queen position is valid or not it can't attack if out of view",
+    {
+      "timestamp": "1771501173170.0",
+      "success": true
+    }
+  ],
+  [
+    "nQueens tests nQueensNaive generates nQueens formations works for n = 7",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests follows rules of Natural numbers",
+    {
+      "timestamp": "1771257822012.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests follows rules of natural numbers 0 should be Nothing",
+    {
+      "timestamp": "1771257953893.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests follows rules of natural numbers negative integers should be Nothing",
+    {
+      "timestamp": "1771523026291.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests follows rules of natural numbers positive integers should be Just (Natural _)",
+    {
+      "timestamp": "1771523026291.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests follows rules of natural numbers zero should be Nothing",
+    {
+      "timestamp": "1771523026291.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests follows rules of the board should display properly",
+    {
+      "timestamp": "1771687722149.0",
+      "success": true
+    }
+  ]
+]
