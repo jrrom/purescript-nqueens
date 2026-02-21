@@ -1,15 +1,28 @@
 {
   "workspace": {
     "packages": {
+      "demo": {
+        "path": "demo",
+        "core": {
+          "dependencies": [
+            {
+              "prelude": ">=6.0.2 <7.0.0"
+            }
+          ]
+        },
+        "test": {
+          "dependencies": []
+        }
+      },
       "nqueens": {
-        "path": "./",
+        "path": "lib",
         "core": {
           "dependencies": [
             {
               "control": ">=6.0.0 <7.0.0"
             },
             {
-              "ordered-collections": ">=3.2.0 <4.0.0"
+              "lists": ">=7.0.0 <8.0.0"
             },
             {
               "prelude": ">=6.0.2 <7.0.0"

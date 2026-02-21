@@ -4,7 +4,7 @@ PureScript package to calculate the [N-Queens](https://en.wikipedia.org/wiki/Eig
 
 ## Structure
 
-The library itself is in `library`, the live demo is hosted on GitHub pages at ||INSERT LINK HERE||, the code for which is in `demo`.
+The library itself is in src, the live demo is hosted on GitHub pages at ||INSERT LINK HERE||, the code for which is in `demo`.
 
 ## Reason for development
 

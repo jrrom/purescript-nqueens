@@ -2,28 +2,28 @@
   [
     "helper function tests boardQueens it gets the List Position of queens from a Board gets the correct board size",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests boardSize it gets the boardSize from a Board gets the correct board size",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests canAttack checks if queen can attack a position col check",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests canAttack checks if queen can attack a position diagonal check",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
@@ -37,21 +37,21 @@
   [
     "helper function tests canAttack checks if queen can attack a position out of range check",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests canAttack checks if queen can attack a position row check",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests isQueen checks if queen is at a location",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
@@ -72,28 +72,28 @@
   [
     "helper function tests valid checks if a queen can be placed in a position checks diagonally",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests valid checks if a queen can be placed in a position checks horizontally",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests valid checks if a queen can be placed in a position checks vertically",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
   [
     "helper function tests valid checks if a queen can be placed in a position it can't attack if out of view",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],
@@ -135,7 +135,14 @@
   [
     "nQueens tests nQueensNaive generates nQueens formations works for n = 7",
     {
-      "timestamp": "1771687722149.0",
+      "timestamp": "1771697453014.0",
+      "success": true
+    }
+  ],
+  [
+    "type definition tests board behaviours should display properly",
+    {
+      "timestamp": "1771697453014.0",
       "success": true
     }
   ],

@@ -1,0 +1,23 @@
+package:
+  name: nqueens
+  dependencies:
+    - control: ">=6.0.0 <7.0.0"
+    - lists: ">=7.0.0 <8.0.0"
+    - prelude: ">=6.0.2 <7.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - spec
+      - spec-node
+      - effect
+  publish:
+    # major.minor.patch.
+    version: 0.1.0
+    license: MIT
+    include:
+    - "test/**/*.purs"
+    location:
+      githubOwner: jrrom
+      githubRepo: purescript-nqueens
+      subdir: lib
