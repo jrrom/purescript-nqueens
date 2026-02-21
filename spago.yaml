@@ -23,3 +23,7 @@ package:
     location:
       githubOwner: jrrom
       githubRepo: purescript-nqueens
+    owners:
+      - keytype: ssh-ed25519
+        public: AAAAC3NzaC1lZDI1NTE5AAAAIFO1kn/983377PaE6JQO9UoiJ67ZZWNZxyouUVkhJYKd
+        id: maintainer@jrrom.com
