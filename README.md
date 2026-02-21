@@ -2,9 +2,9 @@
 
 PureScript package to calculate the [N-Queens](https://en.wikipedia.org/wiki/Eight_queens_puzzle) problem. Currently only supports the naive backtracking implementation. 
 
-## Structure
+## Project Structure
 
-The library itself is in src, the live demo is hosted on GitHub pages at ||INSERT LINK HERE||, the code for which is in `demo`.
+The library itself is in `src`, the live demo is hosted on GitHub pages at <https://jrrom.github.io/purescript-nqueens>, the code for which is in `demo`.
 
 ## Reason for development
 
@@ -41,6 +41,8 @@ main = do
   logShow solutions
   logShow ("Number of solutions: " <> show (length solutions))
 ```
+
+Result :-
 
 ```
 ({ col: 2, row: 3 } : { col: 0, row: 2 } : { col: 3, row: 1 } : { col: 1, row: 0 } : Nil)
