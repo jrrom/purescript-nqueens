@@ -1,4 +1,12 @@
 package:
   name: demo
   dependencies:
-    - prelude: ">=6.0.2 <7.0.0"
+    - prelude
+    - halogen
+    - nqueens
+  bundle:
+    minify: true
+    module: Main
+    outfile: "../docs/index.js"
+    platform: browser
+    type: "app"
