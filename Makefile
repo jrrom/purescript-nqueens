@@ -1,9 +1,11 @@
 .PHONY: demo serve addcommit test
 
 CONF := spago.yaml
+DEMO := demo
+PKG  := nqueens
 
 demo:
-	spago bundle -p demo
+	spago bundle -p $(DEMO)
 
 serve: demo
 	npx serve docs
@@ -37,4 +39,4 @@ endif
 	git commit -m "bump: new version $(NEW_SEMVER)" -e
 	git tag 'v$(NEW_SEMVER)'
 	git push origin main --tags
-
+	spago publish -p $(PKG)

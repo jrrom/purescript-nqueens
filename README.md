@@ -6,6 +6,8 @@ PureScript package to calculate the [N-Queens](https://en.wikipedia.org/wiki/Eig
 
 The library itself is in `src`, the live demo is hosted on GitHub pages at <https://jrrom.github.io/purescript-nqueens>, the code for which is in `demo`.
 
+Note: I would like to credit [Classless.css](https://classless.de/) for the stylesheet.
+
 ## Reason for development
 
 I created this package to learn about functional backtracking algorithms for an assignment. It allows users an easy way to calculate N-Queens. It is intended for general use in programs, given that the value of n is small. It works great in the REPL thanks to the custom implementation of the `Show` instance.
