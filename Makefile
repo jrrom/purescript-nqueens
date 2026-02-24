@@ -12,7 +12,7 @@ serve: demo
 
 addcommit: demo
 	git add -A
-	git commit -m "sync: local version to git" -e
+	git commit -e
 	git push origin main
 
 # Publishing pipeline
