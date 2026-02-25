@@ -22,7 +22,7 @@ SEMVER := $(shell perl -ne 'print $$1 if (/version: (\d+\.\d+\.\d+)/)' $(CONF))
 
 define bump-semver
 	$(eval \
-		NEW_SEMVER := $(shell echo $(SEMVER) | perl -F'\.' -lane \
+		NEW_SEMVER := $(shell echo -n $(SEMVER) | perl -F'\.' -lane \
 			'if ("$(1)" eq "major") { $$F[0]++; $$F[1]=0; $$F[2]=0; } \
 			elsif ("$(1)" eq "minor") { $$F[1]++; $$F[2]=0; } \
 			else { $$F[2]++; } \
