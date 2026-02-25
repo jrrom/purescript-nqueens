@@ -18,7 +18,7 @@ addcommit: demo
 # Publishing pipeline
 
 BUMP ?= patch
-SEMVER := $(shell perl -ne 'print $$1 if (/version: (\d+\.\d+\.\d+)/)' $(CONF)) 
+SEMVER := $(strip $(shell perl -ne 'print $$1 if (/version: (\d+\.\d+\.\d+)/)' $(CONF)))
 
 define bump-semver
 	$(eval \
@@ -28,6 +28,7 @@ define bump-semver
 			else { $$F[2]++; } \
 			print "$$F[0].$$F[1].$$F[2]"') \
 	)
+	$(eval NEW_SEMVER := $(strip $(NEW_SEMVER)))
 endef
 
 publish:
