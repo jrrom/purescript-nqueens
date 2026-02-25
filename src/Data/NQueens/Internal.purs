@@ -6,7 +6,7 @@ import Prelude
 
 -- Types
 
--- | `type Position { row :: Int, col :: Int }
+-- | `type Position { row :: Int, col :: Int }`
 type Position = { row :: Int, col :: Int }
 
 -- | `newtype Board { size :: Int, queens :: List Position }`
@@ -50,7 +50,7 @@ canAttack { row: r1, col: c1 } { row: r2, col: c2} =
   || c1 == c2
   || abs (r1 - r2) == abs (c1 - c2)
 
--- | Check if the `Position` is vaid by comparing against `qs :: List Position`.
+-- | Check if the `Position` is valid by comparing against `qs :: List Position`.
 valid :: Board -> Position -> Boolean
 valid (Board { size: _, queens: qs }) p =
   not $ any (canAttack p) qs

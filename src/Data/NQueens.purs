@@ -48,12 +48,12 @@ nQueensNaive size =
       let r = length qs
       col <- range 0 (n - 1)
       let q' = { row: r, col: col }
-      guard(valid board q')
-      pure(Board { size: n, queens: q' : qs })
+      guard (valid board q')
+      pure (Board { size: n, queens: q' : qs })
       
     go :: Board -> List Board
     go board@(Board { size: n, queens: qs })
-      | (length qs) == n = (singleton board)
+      | length qs == n = (singleton board)
       | otherwise = concatMap go (next board)
   in
    if size > 0 then go (Board { size: size, queens: Nil })

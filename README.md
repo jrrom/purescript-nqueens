@@ -2,6 +2,10 @@
 
 PureScript package to calculate the [N-Queens](https://en.wikipedia.org/wiki/Eight_queens_puzzle) problem. Currently only supports the naive backtracking implementation. 
 
+🔎 Please check out my post about this: [Solving N-Queens with PureScript!](https://jrrom.com/posts/2026-02-25-nqueens.html)
+
+Official Pursuit documentation: <https://pursuit.purescript.org/packages/purescript-nqueens>
+
 ## Project Structure
 
 The library itself is in `src`, the live demo is hosted on GitHub pages at <https://jrrom.github.io/purescript-nqueens>, the code for which is in `demo`.
